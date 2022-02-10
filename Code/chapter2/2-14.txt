@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Test : MonoBehaviour
+{
+    void Start()
+    {
+        int herbNum = 1;
+        if (herbNum == 1)
+        {
+            Debug.Log("체력을 50 회복");
+        }
+    }
+}

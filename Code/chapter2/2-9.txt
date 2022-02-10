@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Test : MonoBehaviour
+{
+    void Start()
+    {
+        int answer = 10;
+        answer += 5;
+        Debug.Log(answer);
+    }
+}

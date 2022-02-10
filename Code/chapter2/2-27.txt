@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Test : MonoBehaviour
+{
+    void CallName(string name)
+    {
+        Debug.Log("Hello " + name);
+    }
+
+    void Start()
+    {
+        CallName("Tom");
+    }
+}
